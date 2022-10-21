@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+}   
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    /*background-color: black;*/
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav-list li a:hover {
+
+    color: gray;
+}
+
+.rightnav {
+    display: flexbox;
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+    /*background-color: rgb(57, 57, 248);*/
+}
+
+#search {
+    padding: 5px;
+    font-size: 11px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('https://w0.peakpx.com/wallpaper/280/517/HD-wallpaper-blue-aesthetic-new-york-city-buildings-sky-background-blue-aesthetic.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin:auto;
+    height: 80%;
+}
+.firstsection{
+    height: 100vh;
+}
+
+.firsthalf{
+    width:75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.secondhalf{
+    width: 40%;
+}
+
+.secondhalf img{
+    width: 80%;
+    border:4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 25px;
+    }
+    .text-small{
+    font-size: 13px;
+    }
+    .btn{
+        padding:6px 10px;
+        margin: 8px 3px;
+        border: 2px solid white;
+        border-radius: 8px;
+        background: none;
+        color: white;
+    }
+    .secright{
+        background:rgba(0, 0, 0, 0) url ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMGFgfWiP8MxtiUM5vjlBT5rzr6ohdq7UJaw&usqp=CAU');
+        height:fit-content;
+        display: flex;
+    }
+    .sectionTag{
+        size: 18px;
+   
+
+    }
+    .sectionSubTag{
+        size: 10px ;
+    }
