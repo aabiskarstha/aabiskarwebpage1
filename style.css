@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -16,12 +18,12 @@
     border-radius: 50%;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
-    justify-content:center ;
+    justify-content: center;
     position: sticky;
-    top:0;
+    top: 0;
     cursor: pointer;
 }
 
@@ -63,7 +65,7 @@
 }
 
 .background {
-    background: rgba(0, 0, 0, 0.7) url('https://w0.peakpx.com/wallpaper/280/517/HD-wallpaper-blue-aesthetic-new-york-city-buildings-sky-background-blue-aesthetic.jpg');
+    background: rgba(0, 0, 0, 0.7) url('https://www.kalikaschoolbtl.edu.np/public/storage/posts/August2021/tQ7oiRB6ZrXBVTEXPMWM.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -73,10 +75,11 @@
     justify-content: center;
     align-items: center;
     color: aliceblue;
-    font-family: 'Segoe UI', Tahoma,Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 50%;
     margin: auto;
     height: 80%;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .firstsection {
@@ -121,28 +124,36 @@
     color: white;
 }
 
-.secright {
-    background: rgba(0, 0, 0, 0) url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMGFgfWiP8MxtiUM5vjlBT5rzr6ohdq7UJaw&usqp=CAU');
-    background-size: cover;
-    background-blend-mode: darken;
-    height: 100vh;
-}
-
-.sectionTag {
-    size: 18px;
-    color: aliceblue;
-    padding: 10px;
-
+.section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
-.sectionSubTag {
-    size: 10px;
-    color: aliceblue;
-    padding: 15px;
+.section-left {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+
 }
 
-.image{
-    display:flex;
-    flex-direction: column;
+.paras {
+    padding: 0px 65px;
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img{
+    border-radius: 10px;
+    border: 2px solid black;
 }
