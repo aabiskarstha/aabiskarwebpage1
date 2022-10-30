@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
             <div class="logo"><img
                     src="https://png.pngtree.com/thumb_back/fh260/background/20210122/pngtree-urban-buildings-under-dark-clouds-image_532251.jpg"
                     alt="Logo"></div>
@@ -20,19 +20,32 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact us</a></li>
         </ul>
-        <div class="rightnav">
+        <div class="rightnav v-class-resp">
             <input type="text" name="search" id="search">
             <button class="btn btn-sm">Search</button>
         </div>
 
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
 
     </nav>
 
-    <section class="background firstsection">
+    <section class="background firstsection" id="home">
         <div class="box-main">
             <div class="firsthalf">
                 <p class="text-big">Importance Of Education</p>
-                <p class="text-small"> Education is important for both men and women as both have an essential role in the development of a healthy and smart society. Education is a necessary way for delivering a brilliant future and at the same time performs the most significant part in the growth and improvement of the nation. The citizens of the nation are responsible for the greater future and progress of the nation.
+                <p class="text-small"> Education is important for both men and women as both have an essential role in
+                    the development of a healthy and smart society. Education is a necessary way for delivering a
+                    brilliant future and at the same time performs the most significant part in the growth and
+                    improvement of the nation. The citizens of the nation are responsible for the greater future and
+                    progress of the nation.<br>
+                    Education certainly determines the quality of an individual's life. Education improves one's
+                    knowledge, skills and develops the personality and attitude. Most noteworthy, Education affects the
+                    chances of employment for people. A highly educated individual is probably very likely to get a good
+                    job
 
                 </p>
             </div>
@@ -42,8 +55,8 @@
             </div>
         </div>
     </section>
-
-    <section class="section">
+<hr><hr>
+    <section class="section" id="about">
         <div class="paras">
             <p class="sectionTag text-big">
                 Kalika Manavgyan Secondary School
@@ -69,6 +82,7 @@
 
         </div>
     </section>
+    <hr>
     <section class="section-left">
         <div class="paras">
             <p class="sectionTag text-big">
@@ -93,6 +107,7 @@
 
         </div>
     </section>
+    <hr>
 
     <section class="section">
         <div class="paras">
@@ -118,8 +133,46 @@
 
         </div>
     </section>
+    <hr>
+    <hr>
+    <section class="services" id="services">
+        <div class="paras">
+            <p class="sectionTag text-big">
+ Services provided by Kalika Manavgyan Secondary School            </p>
+            <p class="transporation"><br>
+                <h4>Transporation</h4><br>
+                Cities across the country have adopted school choice policies that allow students to select and attend schools outside their neighborhoods, providing low-income students more opportunities to attend high-quality schools. For these schools to be feasible choices, however, families must be able to get their children there. For families without reliable transportation, getting their children to school can introduce new challenges and make these schools unrealistic options.
 
+Student travel matters for many reasons. Spending lots of time traveling to school could have adverse effects on students health, safety, and academic outcomes. Going to school outside their neighborhoods can mean leaving behind social supports and connections to other neighborhood children. And when student transportation is provided by the city, district, or school, it can take money away from other important costs, like teachers or instructional materials. <br>
+<div class="thumbnail"><br>
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBgUFRQZGRgaGxsbHBobGyEhHRoaGhoZGhodGh0dIS0kGx0qIRgaJTclKi4xNDQ0GiM6PzozPi0zNDEBCwsLEA8QHRISHzUqIyozMzMzMzMzMTMzMzMzMTMzMzMzMzMzMzMzMzMzNTMzMzMzMzMzMzMzMzMzMzMzMzMzM//AABEIALcBEwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAgMEBQYBBwj/xABJEAACAQIDBAcDCAcHBAEFAAABAhEAAwQSIQUxQVEGEyJhcYGRMqGxFEJSYsHR4fAWIzNTcoKSFSRDk7LC0gdUovGDRGRz0+P/xAAaAQEBAQEBAQEAAAAAAAAAAAAAAQIDBAUG/8QALhEAAgIABAUDAgYDAAAAAAAAAAECEQMSITEEE0FRoVJhkQUiFEKBscHhU2LR/9oADAMBAAIRAxEAPwD2WiiigCiiigCiiigCiiigCiiigCiiigCiiigCiiigCiiigCiiigCiiigCiiigG7twKpY7gJrFYq8bjlidSZ8PwA+FX/SLE5UCA6tqfAbvf8KyePLC2So3yPSCfiPTvrthqlZzk9aJuFIu23jcHUDwCt79Zqs6kLKjnJPM8PIbvWjZWKKWGSNXeZ+qBE+s09h0zEAmFkCfEwAO+knQSEZltr1j7h7I+kR/tHGs7icYbjFiZk+v4VZ9JMM5Zxm7KkqByCmAKoQhkAak6ADeT3Vy1NWbzZWKS3gEa40A3H1I3ntcvCouIa12LziSJKKRzjUjyHrz3M38KEwVq1cMMHZyo1MNmgeOtV9+6XYsf/VdftUV3MxTu2dxOJZzLHwFMCSYFP4fCtcMKKkYvGWsKCBD3Bv+ih+seJ7h7q4Sm5bGmxC7Dc60Vnru3brEnrH15GB5AbqKzlJqe60UUVs2FFFFAFFFFAFFFFAFFFFAFFFFAFFFFAFFFFAFFFFAFFFFAFFFFAFFFFAZ7auymOe61yYBaAOAEwNeQqhsSbBa4sZrj5RzXKi6d0gjyrbY/wDZPP0W+BrAveZiqDULIUeJJMeJNdoNtanOSSZy3ak8BxJ4KoHwAqE2ND37aLoouIP/ACGp7z+FWd6yGskIxnOVYjiQqnTuGb7azWzbRGItqoZj1i8OTAn4E1HqxZqOkeGLC5AJJYgAbyS/Cq/C7NTCjOwDXiNBMhOYH1uZ8vGVex9xLl0sSWLuEmIVMx1Ea69/LzEA3CTxJNJJRZY7Wxu+7MczGTUjDYLMC7nIg3safbDC0nW3VJ+ig4nfry8ay229sXbjBYyqNwHsr4Die81wk7K2Wm1NvhR1diVXi3zm/wCI9/wrM3Hzb4pkoaQ6NUzJEH9OQrlMKh5UVMyLR9HUUUV0NBRRRQBRRRQBRRRQBRRRQBRRRQBRRRQBRRRQBRRRQBRRRQBRRRQBRRRQGR6S7VzMbKHsj2zzPLwFUGJDLbJQDMZH8OgJHiQwrcbUwVsWrjLbUNlZgconNvndzrM4TBL1SIzktdZ2MkTvynL3ALPrXZNONI5S0epE6P3AMPlY9prrBRxJyJupEJZDLaOZ3nNcjQAmcqd0eu/dFKvrbtAW7RZsrM2dt8sApiO4e803hsOW1JCpMFjzPAczSTS2KlW5HsYdnbKoJJ/OtLxe0beHGVIe5xbeqnu+kfd8KR0gxVy0GtWlyKCQzTq3AyeA7v8A1WTVZOpkmuLdl3PQcKTdwNt3Msbjkk/xMKx3SG0VYEEAQZnyrbbDT+4WR9d/9TVmOlOAN1ltrPaB3CTvG7v0qtaWjK3MZg9rK11bS9osTLcAApOnpVxfCqVzsFzEAA72JMAAcavdj9DVRYUdWWkZhBeTxzGQIndrHKrfZewLVlgyrLnJNxzmuGTakFzqB2yIWAeVajguW5q0Z/8AsVuMDuLAEeIO6itNjsMc5heC7h9UUV0/Dx7kPQaKzw6WWf3dz+lf+VLHSmz9G5/SPvrlkfY3mRfVW4rbVi2xVrgDDeIYkeQFRD0osASc4/kP2Vj+kOMNy+z21ZlOWDlPBQDoe8VqMG3qRy7GvudKsMNxdvBCP9UUrCbf639lh7pEwWORVnxLa+VebPcufu2/prYbV2lcwosWrSI0o0q0iMmTMZB4l/Wk4pNKKtsjlSs09nFXCxD2sq8GDqT/ADDSPKamZxzrz4dJMV+5t/1/eaG6SYoGDhln+MffU5WJ2OfNPQc451Bu424GIFhmXgyumvkzKRWKudLMQqlmwohQST1g0A312z0vvsoZcJKkSD1ij4inKxOxeabq3iSd9t18Sn+1zUjOOdef/pbf44Jv85f+NKHS25xwb/5in7Kjw8TsOab7OOdGYc68+u9NSkZ8M65jlHaGpPAaU6OmB44W77vuqZJ+ll5pvMw50ZhWEHTIccNe9K6OmiccPiP8v8aZJ+ljmm7miawn6cWZCm3eBPApr6TSx01sfRuj+T8amWXpY5huaKxH6a4fm4/k/Gu/ptheNxh/KfspUuzHN9jazRWMHTXCfvo8Vb7qUnTTCH/6gejfdWbl6X8Dm+xsq5WTXpbhjuxC/wDl91OL0osHdiE9amb2ZeZ7F3thosXDEwjac9Kw2LxgOVV+ahTMOOZszR3T8K0J6R4dhDX7RB4Flj0NC7Twe8HD/wDhW44yiqojkm7My9oW06y4pidEG8nf2j80VRNtO5dvID2VDqAu4DtDhXo3yzCNIiyZMn2NTuk99RHwOBZgertzmzAq0QRBEZSOIrDxlvYzFR0stftj9Y/6qwuJ2TdvsqW2yLHaKiWbmBHdxr1rG4GzeDZnYZjJgjnPKlYLZ1q0oW3lAEDdyHE6k+dWM4N7lujOm/dw+Ew9sIFbOy9vXQtoey0bjO+rfDWAACYJIEkjmTPlpTm1cF1mT9XnCNmEMBJ7xIOkVV47FMn7QMvIRlGnIsN3gPOvUpwypIkIOUi0xOLRWBmYkRu1OUjXyNVl7FR9Xx0O5Ru9qeyvCDFUt/bKicpj+Hf/AFHWPOqq5tT6Pu1NRzrc7ZYx3NJ8rXm3lA906V2sl8quHg/qaKxzEM0exvVy/JPlAticmbKddxiOG/7aoMN0hLXhb6mczIgEL2Mxgt7eYjUemlONtS31eXNvPI7pnlTNvF2synOfandy/wDVezlrueVN9mWgx1s4g4UW2LKWXOY1KqWn8ir3C7JTL7Pzm/1Gsfh9q2RdYl1HaJEjfPI1It9ILYG9uPEc/Gpy0+qI7WyY/a2/Ya8LXye9JudXm/V5ZzZZ/aTB8J7qldIMQwxtoKiuVtliGbKIa6h1IVpnq43bpqNse7YuX7YXVs5fhvVS0mNY0pvaO0kTaTlzCratqTB0/aPERrOcGe6uDiucleybNfl2J21bLhQwwltSWUdi+eJ+iUAqsuG8GKizu4dYDwB+j31Z4rbWFJSLigZ8xnswIbXXhMVHubUs53brUjWDnGoBI591eqOiOT1Im2sM4wdy4bbqpWAc6EakLqJnfyFMbJVuptwj6InG3r2RqM10H1ApfS7pBh7mDNu1ck9kEFwRoV3DMe/cKuNnnDdTb/WKGyoCvWJocnamCeIrEZPqaaRT3rjgx1N46xP6qPIi8Zp1c0/sr3mtv7LxqyxV20CuVxE66qdxG6POpd90KgqxMkD5n2LNdLZgxe3WJuYYFXH6yYKiTBXcFcydas79/KpOS4e7q2+ykdIWQYzCasVD3Nygn2UI3CDqDV5fNsq2ViSI0IUHeOQ+FRNlexSh9Yh/O1c/4UoN/H/k3v8A9dX+IsqNzbgx3DhHf31HOUBczxmAO7dPnS33GnYyGJvL8sQloC22MsjjXt6QyBvOI76slvW2g9dbEgGGzjy9jfTF5kO0G7YIXDkTB9rrCI375NaOxhZRTnA0HzTy/ipfuR0Ume2d2Is/1x8RQ2SP2+H/AM5B8TVwLfbClhvYTB3AL30u5hSJPWKf6vupb7+Bp2MVZuK2MeLluBbIzG4gQkMuiuWCk79x51cfJZ3NZbwvWj/vqPgrWbH3hK6KFknTeTyP0atsRhFkKRbM+Y5/QqXLoy6dSvOyHO62h8Htn/dVXtzCdVbYNbUOQMsBCdTAIInkfSr9th+03U28oQOT2Yydrtez9U+lYLb7ZryJbtJLCFVQBJk6kgDUj4VmUmlq0aSTGMDZzXFRgYGp1+POo19QSxUMBJOh0A4aeFGJBt3Gtm2AxUafR7AfSOJEetcu27lvIbthlDkASSJnlryrlI2kWN/o/iv+1vRA3I3LuqGdkXZK9RdJABIyNIkcRwqzxeNuKwyNcAKrIFw6HX6/w5U5s52uM+VMQxi2DlvsNZuQT+tEyANOEHdNYjf5jehef9Prdpbd5boVWW4NLkBgCiHc2o1mtd/dfp2h/Oo+2vPbD3LVq8ue6h+VorFbn6yPk7GC5bXUDe3Cm9sY68ltXs4nEyQf2joZYHSImvnYnCyxJtpmlJJUekA4fhcTyufc1IxGEtXEdBcBLKVBNzNBMEGC3MA+VYfCJintC4MZdhjABVD8y286pr7fuqux20MTaktezhYbIyW4cAiVMJOoBGlY/BYkXaa+TSnFl3/Zlm2JvX0B4rmEj+Ua0httYG17Cs57hA9Tr7qqOl1tA9m8gzJfCgMN0hQVJ72QqfENVK9sCvVCVxToy4mr/TS3wsD1P3UVlvk4oreYlI2jbVwlxhkDWQBqXAYEz3SZ18NK4uJwpkfLEMk6ZRoBAIEcJ5njTHSLYAsW1YXFfM2WAmUggTMzqND7qzNnZrDK0zo45as+bnXuxJRcvtVI4wUkvuZrC+FkL8rslvrQDz4MBRbtWBH98sHxYa+ef7arrHRPEvbW4tsFWGYHOu6Cd06aCqrAWkbIpYQz2wSCN2oPxrH6Gnp1PS+i+EUXOsDo8I0dWQd8DgxHE1B2psfEviL11M5W4VCgNbkBFC6hxoJmNeNWvRe6S15czEKYAJ0GsaDnoaukbTzPxNeDisaWDxDUe1GcCXNw1J6WYhdmYvcbd4iIP7AiP6xXVweLEjqr0RHs2j8HrdTWV231ny604RzaVbYfKGgnNdcCQNwZLc+I511wOLxJya0WlmpRSKLbGycXct5BacyRINsDQcZDnuqZas4lYJt7v/tXPwc0xsrGXkKdYbqy9y4c2bUthVKjj2c7GAd3cQYawW2b6BzcuvC4clMzsZu9RYEGTwNwt4ma9lYrbSaf8mMyokY3D3LjKzWvYLHTB3BMgjUSfpGmmsCf2K7uOFuL8UNXlvaV0bOzi4zXRd6vM2jH+85IaRoSumo0qrs7fxDKhN1hn6sEgISoe7fJyyInJbVQTppXKEsZptJaNr+zTyqt9rKrF2f7xbbqEyKrT2HVCSpENKTO7hSbpUGersDXhcZePfbFXTdKMQG0uSnVq2bIgBIwj3T2dSCWytyERxqfhekGJ67D22OjraL50Qa3GuTqh0lUGWPONa3J40VbS2vcicXorM7axtsSWNmCkR1+szvmBrEDypWIx1pgoUCAo9nEfHtCtHtfb921dxCzby20Zralc2bKqT2gdHBc5kaNCpFJba9wXCrJZKoiG4HQI7F7dy4coZiQRkXsCTBJqRxMRpPKtVe/9Co3uY/DuPlFzsvAtQIu6ySh0Yvru3TV5axQ6tRkvHQf43/9Irl3pOEth7mGw7HXdbga2EuIIJPz3VSZ1HKnbu1bOa6HwWGYILuX9WJLWxbgGVOhNwDTlW3zl+TyT7X18EKzeY3Act/KJ+ep5z87+GrEuuv7Ub/onh4GmPluHa5Yt/2fhy1wCRAGVuueyQvY1AKE6xoDU7ArhrmGu4gYBB1Y0Rd7sqKzjRRAViVmD7JPdXOWNOOrg963XUqjF7PwZNHjE3mz3JAWD1YLDskGRkMaMY8anjHDMM125HfaI4fwCrAvhjkjA5mdS7dVdZv1YuLbDIU1f2pg5SADMRURruBdnUWLuZdIXE3IzG91Kqe32Z0bwIqrEn6H8r/pcse5CxG2WyXF658uUJuYSNcwPaAyiQI+sedUtnEgOrB0nKRJGuvI5u6tKowDm2vVX4uBAT1hOQu7oqmWlu0ja94NWWzejOEv2kvL1qq6yoLiQJPcRXnxuJWH904tdDcIXomeXbRdjdLE5szDtZt5yoTxO6Y31e9JsQWXCksrQc0DTLlAENBatje/6e4VmzF7s88ycP5O6jF9B7dwIr4i6RbDBARb7IbfuQT51539SwH1fwa5UrPPto7R6wsITLmBESIgN2QcokDN7hStn4xUvoQ65CbZYZyBKkzPZ4eB31sH/wCmtggAXXEfVX8KYP8A01t8L5052/uYVpcfgy0vwHhSKvaF3NaxDo2YNjlYPMgg2m3GBIyxBgU1AJEOGVAZA1iZMnXTlV0vRghLmDS4udblq9mKlUKlHQKAGYgypnz50nDdEsTbNwqbLdYAILuoEZuSa+13VYcVgpu31/gODoawuOtrg2R7iIBcKrr2iuSzuXjoPcaq7l+xdudXYPZIyqXU74LH2oO+dO7hT+P6E4q4SersgmBPWuYAjcCkDd76NndCcXbuB2RHIGUQ4ECCNNBrFdHxGDJ6yRKcVoL2cxKnA3CrC3lFtxMliHuADXTsFl56DyxrYb9f1ZLNFwLJJ17QrT4e2VxpZrcFLgBY6hWtq4IVhp81T6eUu50ddMW9wKpQ3FYTMqOy5jQ7gGHlWY5XiuMdtyptRtjWLXI5UAaRw5gH7aKvNobNuPcZlQwYGs8AAeHMGivRyn2MZ0N4TYl5LqXEdXULDq90OGOUgmHzAamdOVP3tjYgyVtoCTP7Qx5AJoPCvRBaQfN91KheA91dC2edYPZ+0bdsW1NsKBl0LSV3CTpJgmq3C9C8QCpdEMPmIDb4PeBXrAA5UsRyrWdozlTM3sHBXLTXXuCOsKnfxly27xFWSpmGpPPl8KVex1tyyW3Ushh1BBKEjQMOB0NMWG0HhX5/jpOXEO/Y64MFCCS6Dwt/Wb+o0oIfpt6j7qYv3WUSqFzO4EDTnrTyN5d1eVpHXMxYVv3jeg+6l5X/AHnqopCml5q5v9flnRSft8HOrfdKETOqcee/fSb2GtkFerQ7tGQRoZEiOGpHfS81IL6+Q+2pGbjs38sPXdDL4C2f8Czug9kbsvVx7O7J2fDTdTdrZ1tCpXD2gVIK5dMpBYiNNILsf5jXMdtO3ZXNduIi7pdgoJ5Cd5qHZ6T4NiAuKskncOsWSe4TXRTxmtG6J9nZDl61hbjuzW7LM8o/6wSSIDCOB7AB49nXdXWwOGB6w2klVySbkiMrKM0tBOVmEnWCaW+yMM4Oa0hzamZ1klufMzSv7MsBTbCAKxJIDEEk74Mz6V159KliTM5f9URBsDClTb6hiIaR1hJhwi6kvO5EA5ZdKdudFcM2Zir/AKwksOsaAWZHbSYElFnwinMXsazdbO6nNAWQxGgBAGh7zTDdHrPAuN+5zxnn/Ea6YfFtK3iyv9iSgntFCrfRnDoyMocZWUgZtBkuNdAiN2djpyp5cJbWy+HBuhXNw5xo4Nxy5KsBpBOmlITZFtUa3ncq7Kxltey2eAQJAJ3+JpKbIYFCMTe7IiC+jase1pr7UeAHKsTx5T3xHo71XYsIJdPJATo3aDIRdvKQWzGAM4a4t0gwoCjMo9mNJFNHovaBaLrhjEEqIDLfa+CdNdWjwAqyTY5VSovXBu1za6ZP+H/kaQ2yLkADE3BrMy3NTHt7tD692vSPGYv+Xr2I4R9PkrU6L2la3F9ot5JBUHO1trjqZ4CbjSNdwq22Nhxh7KWTcDhBCtly9ngCATrv1p7CuEUW2fMwGpMydd+pJjzNSCa8fEcXj4icZStXex0hhwjql5OfKF50dcv0hSTFJMchXj+72N6C+uX6Q9aQbok6j8gUggchTbBZOg/IFbhmDyldtC+lhruJKuxyIGCdpiAzKoVZ+sT5k0/sTa6Ym2biK6gMVh1ymQAd07taca0hMka9xI+FJ6hO8eZ+2uzba2172ZqPfwWNE1WsAN+o58R4xvpeQcz6mubzLp5Jlj38FTiNkN1lx3uF1LF0U/N7GXLqTpvMCBrUvHp2JGkTu7xFMbeum3h7txScyI7CddVUkTz1rGbA6SYu84F5ZtsNCECgsHUb+IGundX1OBhizkp6aNHLEyqLRtEZtdTvbj9Y1yi3c08zz5miv1NnhpmsDd5pYfvNJAFd868h2FBz305m8aZzVzNQFNhNltauYi4tsTduZj2zqqqApM7iSX0Hd5SkRwACnjqN9TWeONMPigNM1eTE4OE5ZnuazOqES30T6UZ+dN3LhP5+6q3E4XPoWBHEfeZk1xl9Pj0ZVMuVcUrNWTxOGcCFUacmgeigVBNm9v61k8GY/wC6vNP6a+kvB0Uzcl6q9u7WTDWnvMdFUGOJMkKB4kgVknuYoezjWHigb4k1T7aGJv5bVy/nQA3H7GUQnsqYG85mj+HurEfp0lJW1RrOisXB3caflOLulVb2R3bwEHBfDfvJmnm6O4VhCOwPPXf6n4U10jxLKkJpw8AI++qdVa0EuC40mOOh0kjv5V9mMVFUlocG7Nx0N21cwt5MHfYtbc5bTk+y3BP4TuHIkRodPRLlq25VnRWKmVJAJU8xyrx7b7nqluAwy5XU/RYQwj3+tX+zenGIuqXXCKVBiTcKgnu7Jr5XG8HKUs2Gt9zthz01PSQ9dzVgl6ZXh7WCP8t4H4oKfXpqeODveToftFeB8FjLp+x0zxNqX1Hn9lGasYem6D2sNiBH/wCM7z/GKUnTmwf8O+P/AIwf9LGsvhcVdGM6NjmrhesivTjC8TcH/wAT/YDTi9NMIdOsf/Kuf8Kw+GxPS/guZdzRKxkyNOB5njpwpN1XLAh4Ub1yzPnwqlXpXhT/AIvqjj4rXf0pwm44i2PFgPjU5M+z+CqSLhySYBjyn7aZHWDey+Sn76r16RYQnTE2jMbrif8AKnv7WssNLib+DqdJ7jypy5rp4M2iczVXY2/cVgwKC2JNwuSCoG8jhuB3078tQ7nU+BFYr/qJtOLKWUP7QkvH0EI0PixB/lNdeHwHKdBypEDbfTy6zFcLCKPnsJZu9VIhR4ifDdVZb6ZY9dTcV44FB/tAPpULAbPziSYXidOU8a5ewsbmBBmNQZA14bjofSvvR4XDUao8+d2ej9Fek6YtSIyXF9pJnT6Snivw9Cb/ACkDeABz4D13V450fxPU4lLoDlgYIUaFSQGLa7ob1E17DjbAuW3tscqsrKSNIDAiQfOvl8TgKE9Nmdouyq2zibd3B3StxGRkZc69oCeyfZkmJ3CsPgnCW0t27qXMuYEZWRozMxM3Bp7XLhV1tHDYbC4O5hrN3O1xpGpbtdgGWQQoheNYbDbPuI6tAcayF7XAyD3/AIV7uEhkTpurOc02tUav+2MvZO8aHQn359aKzeJxILGQ4Ommumg0rle7OzhlPfldvDxpRfvqH1p3yPLWkK5/9iutAls5mdaYuXmrnXeJ9PjSGc91KA278/jTL4qBvPlH3UtiTy8eFR3QcwaFI1/azjdJH5/GqfF7Sungfz+TV29idy0y2EHEVhplRkcRir54H8xVfcxGI+t6fnlW8OEHdSGwgrGVlswRx2KG4t6fhTL7VxcEFtCIMqNZrftggdwpK7LzfNEUysWYmxfW6Ar6GI157uO8EU+uyrCnOxHhM+gj4mtPiOj9s6tbWOenxqI/RvDn/DPkWH21u2SjFdI9prchE3aenD7K5hek+JRQqhMoEABIgd0Vs06M4YHS1r5n4mnV2BaG62P6TXNxbdmk6MkOl+J4onoeXjuoTpde42kO7mN341rv7Fs/QGndxpDbCsfuxTKxmMovS64P8JeHHkZ5UHpYxmbCnfxHOfo1pzsCwfm8fupH6O4fivGplGYzLdJwTrhl47jz8qQekq/9uD4t68K1B6M4cjfHDSmj0VtcGqZRZnR0nX/tx6/ZAigdJre/5OAe4j7qvz0UtfTpLdErX0/z50ymrM8+37RP7E+Zn7RXG23YO+xpxBAP21dP0St8GPoKR+iFv957qmRkzIzeJv4aCbaurbgrAFdeMzOnf3VCwhGo47/Stb+hy/vB6H7qTc6Ggai4R4Catai0VmGxUDKZI7vUHTf4d1du4jURmgEsSwALGIEDkJqcOitz5t1fNSPvpD9Fr533E8s33VvMZoj7Dx9q2bnWTD5QII0CzJ18atMRtC3cj9dcPdcYMB9w8KrD0QufvF9DST0XuKJzqe4AzXNq9WjV1sydcBywuUnXRW+w1UXXKtB0O/kfKaWmyLwPGZ4j8ampYu/s7iErzgEe/hQ3zGR1xtz97c9Woqb/AGOOUfn+KiqXMesWMaeNwD+Wfsp171s+1cJ7vwioBQ/RYDwNKF0rpoJ4RE16jzjly8DosnxpOeOHrJp62/NlHcIpLou8sfExUAlLpOggeVcuWjvzCm2ccPWPhXVugblFAKVx3xXc68j+fOlJdzHcPXQe6m3Rid6+Wn2UA4UnhHjvpSW9N8DyqOyMBJ+O+lI4jXMT7h4ffQtCuzz++gBOdChPzNGQzIBHKoQ6toEyfT7x9lLawsTpSVDd/pXQJ9o6D3n8KAaWzOsgd3dR1I50+qKeMedJcREGeJ8vz8aUBlbHdrQ1kQdBuPGpPWk8qSzzppqR8aUCN8lPdXHwrb+APLy+2pbYbvpJQgb92vprShZDayOVc+TiRA3/AJH21NzD6FJJHKPsNSgQmwuvsj3Uj5KBvHh91WHVk6z76OqPE++lFsrWwq1wWOGUelWRA5H8+dcEcqZRZVthOQiuHCgcqtApNcyHiJqZRZVLhR3fnlQLA5e81ZtbXkRSSgplFlZ1HdXBhhzqxZD+RSWtE8PdUyiytexTLWDvBNXC2x4U3cXvFMqLmKjqG+k3r+FFWUGu1MqGYtGvMdBC+/300LJ5g+M0xbdjuM9+kesVMFudGYn0A9IrsZGAnKD3yfyakJdRfmknnp7q4bQ5mmLoA0Uye/d60LuSDiQfmmuXATuWB5T+FMWnj5uvP87hUgXfq+/8KEoQEPI0SZjX7vGnRcZh2RA5k7/DT30nI0bl9TQCwicWk8ya46oNZ0pprL79w8acta6ndwEb+81ANwCdNw3T8adDkcae6wc/dXWdOYqUav2GldiYka927vpZw43A0yJ1JWCe7cOAruelGRzqaZtvE6TPPkPz76kZly+3rw/M0mF3aUrsW+4nrO730XHnKoHEnyAPd3iuEr31wjtAidAfeR3d1NRoDIeNcCGusxn8K4SeYqkHrTAgGOA5V3y91NIOzw4/hXQO+gEMDJA8d/r+e+jK1ONZMZhw18uPuruvKgGlMGSPHwpbZeFJzch7/wAKRDAxw4faN1AKgcDBpPa8aVry/PpQw4jf+e6gG2Y8TQiqdDofcaUzePu++kP5e776gBkHP4Vxh5/Gm5YbxI5zu8a7n5rQUHnSHWa69wcB7vwpDOI5e6gOZPzFFI6zw9aKgA3IHH1rqXdPaNcorRSXkJHaJjlp7+fhXV1HdRRTqQ6bUCTHp+NJTXfEcBz8fuooqs0h9bx5D8+VO9YeQ9fwooqCkcDF+GnDvoNk74Pu++iioRALR5R6UgAZpO5f9X4fbRRVKPC7O6lAzxooqmSO79o6ezp5n8I9TSDcEx9lFFQqOATTuHXVtBwHxNFFCCmA5UMJ1PxNFFUDIcSQCdD38q6X5zRRUKcVyTAJ84pNu3oRmPZMeW8bxyPurlFA9gyEcT7q4Sx+caKKEEnFsu9vjQcSefuoooaOPfMbhNAYxMA0UUIxBuEcB+fKkZTvA8pj0oorJRs3BExNMXHnhFFFGQjx3miiisGj/9k=" alt="building" class="i-transporation">
+    
+    <p class="cafeteria"><br>
+        <h4> Cafeteria</h4><br>The school cafeteria and lunch counter run under the school health policy. The operation in-charge ensures that every meal is healthy, hygienic a sumptuous.The supply of food items in school concerns greatly to personal hygiene of all stakeholders. To serve the purpose of food hygiene, it has managed a well-facilitated canteen within school premises which supplies varieties of food items at an affordable cost.
+         <br>
+<div class="thumbnail"><br>
+        <img src="https://source.unsplash.com/150x150/?cafeteria" alt="cafeteria" class="ty">
 
+</div>
+            </p>
+                <hr><hr>
+    <section class="contact" id="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="text" name="Phone number" id="Phone number"
+                placeholder="Enter your Phone number">
+            <input class="form-input" type="text" name="email" id="email" placeholder="Enter your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+                placeholder="Ellaborate your concern"></textarea><br>
+            <button class="btn btn-dark">submit </button>
+        </div>
+    </section>
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2027 www.NepalWebsite.com - All rights preserved
+    </footer>
+<script src="js/resp.js"></script>
 </body>
 
 </html>
