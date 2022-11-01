@@ -147,6 +147,7 @@ html{
 }
 
 .section-left {
+    padding: 20px;
     height: 400px;
     display: flex;
     align-items: center;
